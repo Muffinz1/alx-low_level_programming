@@ -19,19 +19,19 @@ int main(void)
 		{
 			if (Num1 != Num2 && Num1 < Num2)
 			{
-				putchar(Num1 + '48');
-				putchar(Num2 + '48');
+				putchar(Num1 + 48);
+				putchar(Num2 + 48);
 
 				if (Num1 + Num2 != 17)
 				{
 				putchar(',');
 				putchar(' ');
 				}
-			Num2++;
 			}
-		Num1++;
+			Num2++;
 		}
-}
+		Num1++
+		}
 	putchar('\n');
 	return (0);
 }
