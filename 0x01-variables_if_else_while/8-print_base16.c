@@ -12,10 +12,10 @@ int main(void)
 	while (number <= 102)
 	{
 		putchar(number);
-		if(number == 57)
+		if (number == 57)
 			number += 39;
-		number++
+		number++;
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
