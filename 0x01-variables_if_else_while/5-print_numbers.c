@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Description: for char put
+ * Description: printf numbers
  *
  * Return: 0 (always success)
 */
