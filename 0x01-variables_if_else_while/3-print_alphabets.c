@@ -9,6 +9,8 @@
 
 int main(void)
 {	char ch = 'a';
+	char CH = 'A';
+
 	while (ch <= 'z')
 	{
 		putchar (ch);
@@ -16,8 +18,6 @@ int main(void)
 	}
 	putchar ('\n');
 /*bigger alphabets*/
-
-	char CH = 'A';
 
 	while (CH <= 'Z')
 	{
