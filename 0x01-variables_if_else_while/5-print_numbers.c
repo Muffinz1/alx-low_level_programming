@@ -8,8 +8,8 @@
 */
 
 int main(void)
-{	int X = '0';
-	while (X <= '0')
+{	int X = 0;
+	while (X <= 0)
 	{
 		printf("%i", X);
 		X++;
