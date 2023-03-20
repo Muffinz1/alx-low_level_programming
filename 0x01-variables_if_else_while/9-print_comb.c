@@ -9,17 +9,18 @@
 
 int main(void)
 {
-	int Num =0;
+	int Num = 0;
+
 	while (Num <= 9)
 	{
-		putchar(Num +48);
+		putchar(Num + 48);
 		if (Num != 9)
 		{
-			putchar('.');
+			putchar(',');
 			putchar(' ');
 		}
 		Num++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
