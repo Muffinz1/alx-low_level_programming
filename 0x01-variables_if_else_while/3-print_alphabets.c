@@ -15,6 +15,7 @@ int main(void)
 		ch++;
 	}
 	putchar ('\n');
+/*bigger alphabets*/
 
 	char CH = 'A';
 
@@ -24,5 +25,6 @@ int main(void)
 		CH++;
 	}
 	putchar ('\n');
+
 	return (0);
 }
