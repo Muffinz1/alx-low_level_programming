@@ -9,7 +9,7 @@
 
 int main(void)
 {	int X = 0;
-	while (X <= 10)
+	while (X <= 9)
 	{
 		printf("%i", X);
 		X++;
