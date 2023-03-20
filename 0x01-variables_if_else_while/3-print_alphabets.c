@@ -16,7 +16,6 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	putchar ('\n');
 /*bigger alphabets*/
 
 	while (CH <= 'Z')
@@ -24,7 +23,6 @@ int main(void)
 		putchar(CH);
 		CH++;
 	}
-	putchar ('\n');
-
+putchar ('\n');
 	return (0);
 }
