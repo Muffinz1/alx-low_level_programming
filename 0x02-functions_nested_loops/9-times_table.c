@@ -12,7 +12,7 @@ void times_table(void)
 		_putchar(48);
 		for (Multi = 1; Multi <= 9; Multi++)
 
-		_putchar('.');
+		_putchar(',');
 		_putchar(' ');
 
 		Result = Num * Multi;
