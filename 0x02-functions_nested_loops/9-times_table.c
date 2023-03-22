@@ -9,18 +9,18 @@ void times_table(void)
 
 	for (Num = 0 ; Num <= 9; Num++)
 	{
-	_putchar('0')
-	for (Multi = 1; Multi <= 9; Multi++)
+		_putchar(48)
+		for (Multi = 1; Multi <= 9; Multi++)
 
-	_putchar('.');
-	_putchar(' ');
-
-	Result = Num * Multi;
-	if (Result <= 9)
+		_putchar('.');
 		_putchar(' ');
-	else
-		_putchar((Result / 10) + 48);
-		_putchar((Result % 10) + 48);
+
+		Result = Num * Multi;
+		if (Result <= 9)
+		_putchar(' ');
+		else
+			_putchar((Result / 10) + 48);
+			_putchar((Result % 10) + 48);
 	}
 	_putchar('\n');
 }
