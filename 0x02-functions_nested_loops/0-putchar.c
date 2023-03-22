@@ -5,13 +5,14 @@
  *
  * Description: prints function in main
  *
- * return: 0 (always success)
+ * Return: 0 (always success)
 */
 int main(void)
 {	char str[] = "_putchar";
 	int x;
-	for (x = 0; x < 8;x++ )
+
+	for (x = 0; x < 8; x++)
 		_putchar(str[x]);
 	_putchar('\n')
-		return(0);
+		return (0);
 }
