@@ -18,9 +18,9 @@ void times_table(void)
 		Result = Num * Multi;
 		if (Result <= 9)
 		_putchar(' ');
-		else
-			_putchar((Result / 10) + 48);
-			_putchar((Result % 10) + 48);
+	else
+	_putchar((Result / 10) + 48);
+	_putchar((Result % 10) + 48);
 	}
 	_putchar('\n');
 }
