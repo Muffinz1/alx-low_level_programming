@@ -7,7 +7,7 @@
  *
  * Return: 0 (always success)
 */
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	int x;
 
