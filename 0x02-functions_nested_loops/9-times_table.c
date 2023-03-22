@@ -11,7 +11,7 @@ void times_table(void)
 	{
 		_putchar(48);
 		for (Multi = 1; Multi <= 9; Multi++)
-
+		{
 		_putchar(',');
 		_putchar(' ');
 
@@ -21,6 +21,7 @@ void times_table(void)
 	else
 	_putchar((Result / 10) + 48);
 	_putchar((Result % 10) + 48);
-	}
+		}
 	_putchar('\n');
+	}
 }
