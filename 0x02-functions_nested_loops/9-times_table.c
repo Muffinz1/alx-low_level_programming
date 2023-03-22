@@ -9,7 +9,7 @@ void times_table(void)
 
 	for (Num = 0 ; Num <= 9; Num++)
 	{
-		_putchar(48)
+		_putchar(48);
 		for (Multi = 1; Multi <= 9; Multi++)
 
 		_putchar('.');
