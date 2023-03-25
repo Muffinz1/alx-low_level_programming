@@ -12,12 +12,10 @@ int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 		{
-		printf("%c is an uppercase letter\n", c);
 		return (1);
 		}
 	else if (c >= 97 && c <= 122)
 		{
-		printf("%c is a lowercase letter \n", c);
 		return (0);
 		}
 }
