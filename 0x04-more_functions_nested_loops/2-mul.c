@@ -13,5 +13,4 @@ int mul(int a, int b)
 	int multi = a * b;
 
 	printf("%i", multi);
-	return (0);
 }
