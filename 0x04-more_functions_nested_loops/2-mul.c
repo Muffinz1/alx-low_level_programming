@@ -6,12 +6,9 @@
  *
  * @b: second number to be multiplied
  *
- * Return: 0 (always success)
+ * Return: a*b (always success)
 */
 int mul(int a, int b)
 {
-	int multi = a * b;
-
-		printf("%i", multi);
-		return (0);
+	return (a * b);
 }
