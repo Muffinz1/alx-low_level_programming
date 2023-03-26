@@ -13,7 +13,7 @@ void print_numbers(void)
 	int num = 0;
 	int max = 9;
 
-	for (num <= max, num++)
+	for (num <= max; num++;)
 	{
 		_putchar(num + 48);
 	}
