@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * print_numbers(void)- data entry
+ * print_numbers - data entry
  *
  * Describition: prints numbers from 0 to 9
  *
