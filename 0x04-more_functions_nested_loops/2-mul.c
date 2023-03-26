@@ -12,10 +12,6 @@ int mul(int a, int b)
 {
 	int multi = a * b;
 
-	if ((a >= 0 && a <= 9) && (b >= 0 && b <= 9))
-	{
 		printf("%i", multi);
-	}
-	else
 		return (0);
 }
