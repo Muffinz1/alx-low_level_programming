@@ -4,8 +4,6 @@
  * print_numbers - data entry
  *
  * Describition: prints numbers from 0 to 9
- *
- * Return: 0 (success)
 */
 
 void print_numbers(void)
