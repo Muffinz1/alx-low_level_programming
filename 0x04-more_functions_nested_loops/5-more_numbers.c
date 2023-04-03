@@ -14,9 +14,9 @@ void more_numbers(void)
 
 		while (Num < 15)
 		{
-			if (Num / 10 != 0)
+			if (Num > 9)
 			{
-			_putchar(Num % 10 + 48);
+			_putchar(Num / 10 + 48);
 			}
 			_putchar(Num % 10 + 48);
 			Num++;
