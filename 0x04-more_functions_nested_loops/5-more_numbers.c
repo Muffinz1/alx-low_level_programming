@@ -7,7 +7,7 @@
  *
  * Return: 0 (always success)
 */
-void more_numbers(void)
+void more_numbers()
 {
 	for (int i = 0; i < 10; i++)
 	{
