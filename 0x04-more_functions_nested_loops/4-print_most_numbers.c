@@ -22,6 +22,6 @@ void print_most_numbers(void)
 		{
 			num++;
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
