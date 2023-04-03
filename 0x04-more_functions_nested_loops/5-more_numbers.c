@@ -3,12 +3,12 @@
 /**
  * more_numbers - prints numbers
  *
- * Description: prints numbers 14 times
+ * Description: prints numbers 10 times
 */
 
 void more_numbers(void)
 {
-	for (int i = 0; i < 14; i++)
+	for (int i = 0; i < 10; i++)
 	{
 		int Num = 0;
 
