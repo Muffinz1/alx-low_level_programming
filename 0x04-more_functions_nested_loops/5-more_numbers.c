@@ -4,6 +4,8 @@
  * more_numbers - prints numbers
  *
  * Description: prints numbers 10 times
+ *
+ * Return: 0 (always success)
 */
 
 void more_numbers(void)
