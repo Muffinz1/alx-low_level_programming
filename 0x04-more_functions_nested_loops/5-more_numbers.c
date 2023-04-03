@@ -21,7 +21,12 @@ void more_numbers(void)
 			_putchar(Num % 10 + 48);
 			Num++;
 		}
-		_putchar('\n');
+		if (i == 9)
+		;
+		else
+		{
+			_putchar('\n');
+		}
 	}
 }
 
