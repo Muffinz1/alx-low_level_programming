@@ -15,7 +15,7 @@ void print_most_numbers(void)
 	{
 		if (num != 2 && num != 4)
 		{
-			_putchar(num + 45);
+			_putchar(num + 48);
 			num++;
 		}
 		else
