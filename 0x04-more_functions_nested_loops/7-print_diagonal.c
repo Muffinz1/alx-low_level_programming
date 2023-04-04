@@ -21,10 +21,6 @@ void print_diagonal(int n)
 	space++;
 	}
 	_putchar(92);
-	if (dash == n)
-	{
-	_putchar('\n');
-	}
 	dash = dash + 1;
 	space = 0;
 	}
