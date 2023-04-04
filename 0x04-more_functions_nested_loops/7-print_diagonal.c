@@ -6,6 +6,7 @@
  *
  * Description : prints diagonal line
  *
+ * Return : 0 (always success)
 */
 
 void print_diagonal(int n)
