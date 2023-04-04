@@ -16,7 +16,7 @@ void print_diagonal(int n)
 
 	while (dash < n)
 	{
-		while (space < dash)
+		while (space <= dash)
 		{
 		_putchar(32);
 		space++;
