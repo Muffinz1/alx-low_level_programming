@@ -15,9 +15,10 @@ int main(int argc, char **argv)
 
 	for (i = 1; i < argc; i++)
 	{
-		if (*argv[i] < 48 || *argv[i] > '9')
+		if (*argv[i] < 48 || *argv[i] > '9' || *argv[i] < 0)
 		{
-			return (printf("Error\n"), 1);
+			printf("Error\n");
+			return (1);
 		}
 		else
 		sum = sum + atoi(argv[i]);
