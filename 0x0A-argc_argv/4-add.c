@@ -17,8 +17,7 @@ int main(int argc, char **argv)
 	{
 		if (*argv[i] < 48 || *argv[i] > '9')
 		{
-			printf("Error\n");
-			return (1);
+			return (printf("Error\n"), 1);
 		}
 		else
 		sum = sum + atoi(argv[i]);
