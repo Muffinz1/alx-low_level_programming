@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 /**
  * print_numbers - function that prints numbers and follows by a new line
- *
+ * @...:rest of enteries
  * @separator: the string to be printed between numbers
  * @n: arguement counts for var
 */
