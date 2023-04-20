@@ -20,7 +20,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_start(list, n);
 	while (count--)
 	{
-		printf("%s%s", (string = va_arg(list, char *)) ? string : ("nil"),
+		printf("%s%s", (string = va_arg(list, char *)) ? string : "(nil)",
 		count ? (separator ? separator : "") : "\n");
 	}
 	va_end(list);
