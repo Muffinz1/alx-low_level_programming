@@ -20,7 +20,7 @@ int is_prime_number(int n)
 */
 int prime_checker(int n, int num)
 {
-	if (num >= n && num > 1)
+	if (num >= n && n > 1)
 	{
 	return (1);
 	}
