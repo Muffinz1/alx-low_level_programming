@@ -8,3 +8,5 @@ this read me file is used to describe the task script
 2- script that prints the value of a bit at a given index.
 
 3- script that sets the value of a bit to 1 at a given index.
+
+4- flippy flopper script that flips the data and returns the amount to be flipped. 
