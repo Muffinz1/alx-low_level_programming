@@ -7,3 +7,5 @@ this read me file describe the scripts in the directory
 4- 4. free list
 5- 5. index node
 6- 6. sum of linked list
+7- 7. Insert at index
+8- 8. Delete at index
