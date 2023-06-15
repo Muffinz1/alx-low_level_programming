@@ -6,3 +6,4 @@ this read me file describe the scripts in the directory
 3- 3. Add node at the end
 4- 4. free list
 5- 5. index node
+6- 6. sum of linked list
