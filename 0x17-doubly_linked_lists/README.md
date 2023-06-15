@@ -5,3 +5,4 @@ this read me file describe the scripts in the directory
 2- 2. Add node
 3- 3. Add node at the end
 4- 4. free list
+5- 5. index node
