@@ -2,10 +2,10 @@
 
 /**
  * hash_table_create - a function that creates a hash table
- * 
+ *
  * @size: an input for the array size
- * 
- * Return: a pointer to the newly created hash_table, NULL if failure 
+ *
+ * Return: a pointer to the newly created hash_table, NULL if failure
  */
 
 hash_table_t *hash_table_create(unsigned long int size)
