@@ -14,3 +14,10 @@
 * Version of make: GNU Make 4.2.1
 * Version of gcc: 9.3.0
 * OS: Ubuntu 20.04 LTS
+
+# make files building :candle:
+* 0-Makefile
+* 1-Makefile
+* 2-Makefile
+* 3-Makefile
+* 4-Makefile
